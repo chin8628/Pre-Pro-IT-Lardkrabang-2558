@@ -1,14 +1,5 @@
 """ W1_D2_Compare """
-def main():
+def main(inputa, inputb):
     """ GG WP """
-    inputa = int(input())
-    inputb = int(input())
-
-    if inputa > inputb:
-        print("A > B")
-    elif inputa < inputb:
-        print("A < B")
-    else:
-        print("A = B")
-
-main()
+    print("A = B") if inputa == inputb else print(("A > B", "A < B")[inputa < inputb])
+main(int(input()), int(input()))

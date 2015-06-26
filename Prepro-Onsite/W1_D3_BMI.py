@@ -1,14 +1,5 @@
 """ W1_D3_BMI """
-def main(weight, height):
+def main(bmi):
     """ hahahahaha """
-    bmi = float(weight/((height/100)**2))
-    if bmi >= 30:
-        print("Obese")
-    elif 25 <= bmi:
-        print("Overweight")
-    elif 18.5 <= bmi:
-        print("Normal")
-    else:
-        print("Underweight")
-
-main(int(input()), int(input()))
+    print(("Underweight", "Normal", "Overweight", "Obese")[(bmi > 18.5) + (bmi > 25) + (bmi >= 30)])
+main(float(int(input()) / ((int(input()) / 100) ** 2)))
