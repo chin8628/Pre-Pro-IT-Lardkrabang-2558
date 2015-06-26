@@ -1,14 +1,6 @@
 """ W1_D2_SumSumSum """
-def main():
+def main(inputa, inputb):
     """ HiHiHi """
-    inputa = int(input())
-    inputb = int(input())
-    if inputa > inputb:
-        inputa *= 2
-    elif inputb > inputa:
-        inputb *= 2
-    else:
-        inputa *= 2
-        inputb *= 2
-    print(inputa+inputb)
-main()
+    print(inputa * 2 + inputb * 2) if inputa == inputb else \
+    print((inputa * 2 + inputb, inputa + inputb * 2)[inputa < inputb])
+main(int(input()), int(input()))
