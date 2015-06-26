@@ -5,5 +5,6 @@ This repository contains 3 stuffs
 - Prepro Online
 - Prepro Onsite
 - Python Programming for Everyone
+- Quiz [All passed]
 
 ####A whole file in this repository is correct.
