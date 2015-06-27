@@ -7,4 +7,5 @@ This repository contains 3 stuffs
 - Python Programming for Everyone
 - Quiz [All passed]
 
-####A whole file in this repository is correct.
+####A whole file in this repository is correct. 
+(Except "THE SUPER MEGA ULTIMATE PRIME CHALLENGE PLUS!!")

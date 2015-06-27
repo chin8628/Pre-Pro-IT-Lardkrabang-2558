@@ -1,5 +1,5 @@
 """ W1_D4_Center_justify """
 def main(yaw, inputn):
     """ dksdfskdsfjkhefajk """
-    print(" "*int((yaw / 2) - (len(inputn) / 2)) + inputn + " "*int((yaw / 2) - (len(inputn) / 2)))
+    print(inputn.center(yaw))
 main(int(input()), input())
