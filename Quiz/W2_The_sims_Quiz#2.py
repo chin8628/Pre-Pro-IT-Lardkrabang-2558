@@ -4,12 +4,12 @@ def main():
     inputn = int(input())
     for line in range(1, inputn + 1):
         print(" "*(inputn - line), end="")
-        for i in range(1, line + 1):
+        for _ in range(1, line + 1):
             print("* ", end="")
         print("")
     for line in range(inputn - 1, 0, -1):
         print(" "*(inputn - line), end="")
-        for i in range(1, line + 1):
+        for _ in range(1, line + 1):
             print("* ", end="")
         print("")
 main()

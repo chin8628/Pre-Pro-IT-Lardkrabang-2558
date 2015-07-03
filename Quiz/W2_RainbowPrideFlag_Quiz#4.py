@@ -8,7 +8,7 @@ def main():
         print("Height " + str(height) + " pixel can't create pride flag.")
         return 0
     indicolor = 1
-    for line in range(height):
+    for _ in range(height):
         print(str(indicolor)*width)
         count += 1
         if count == wowo:
