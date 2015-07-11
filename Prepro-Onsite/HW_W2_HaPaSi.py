@@ -10,17 +10,9 @@ def main():
             draw += 1
         else:
             draw = 0
-            if inputn[0] == 'H' and inputn[4] == 'S':
+            if "H - S" or "P - H" or "S - P":
                 scorea += 1
-            elif inputn[0] == 'P' and inputn[4] == 'H':
-                scorea += 1
-            elif inputn[0] == 'S' and inputn[4] == 'P':
-                scorea += 1
-            elif inputn[4] == 'H' and inputn[0] == 'S':
-                scoreb += 1
-            elif inputn[4] == 'P' and inputn[0] == 'H':
-                scoreb += 1
-            elif inputn[4] == 'S' and inputn[0] == 'P':
+            elif "S - H" or "H - P" or "P - S":
                 scoreb += 1
     if draw == 5:
         print("NONE")
