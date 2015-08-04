@@ -6,6 +6,3 @@ This repository contains 3 stuffs
 - Prepro Onsite
 - Python Programming for Everyone
 - Quiz [All passed]
-
-####A whole file in this repository is correct. 
-(Except "THE SUPER MEGA ULTIMATE PRIME CHALLENGE PLUS!!")
